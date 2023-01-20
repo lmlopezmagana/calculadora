@@ -1,3 +1,8 @@
+/**
+ * Calculadora muy básica para aprender a manejar las etiquetas de Git
+ * y los argumentos del método main
+ * @author Luis Miguel López Magaña
+ */
 public class Calculadora {
 
     public static void main(String[] args) {
