@@ -13,7 +13,10 @@ public class Calculadora {
         String op = args[1];
 
         switch(op) {
-            case "+": System.out.println("Resultado: " + (n1 + n2));
+            case "+": System.out.println("Resultado: " + (n1 + n2)); break;
+            case "-": System.out.println("Resultado: " + (n1 - n2)); break;
+            default: System.err.println("Error en el operador introducido");
+
         }
 
     }
