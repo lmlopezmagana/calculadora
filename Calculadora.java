@@ -13,7 +13,7 @@ public class Calculadora {
         String op = args[1];
 
         switch(op) {
-            case "+": 
+            case "+": System.out.println("Resultado: " + (n1 + n2));
         }
 
     }
